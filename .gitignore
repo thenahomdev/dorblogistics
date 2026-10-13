@@ -1,0 +1,33 @@
+# Composer / npm
+/vendor/
+composer.phar
+node_modules/
+
+# Editors
+.idea/
+.vscode/
+*.sublime-*
+
+# Windows / macOS rommel
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs en tijdelijke bestanden
+*.log
+*.bak
+*.tmp
+
+# Eigen instellingen met database-gegevens en API-sleutels
+/lib/config.php
+.env
+.env.*
+!.env.example
+
+# Door gebruikers geüploade bestanden
+/uploads/*
+!/uploads/.gitkeep
+
+# Database-dumps met echte gegevens
+*.sql.gz
+/database/dumps/
